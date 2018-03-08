@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+.nyc_output/
+
+# logs
+*.log*
+
+# misc
+.DS_Store
