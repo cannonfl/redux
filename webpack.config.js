@@ -1,6 +1,5 @@
-"use strict";
-const path = require('path');
-const webpack = require('webpack');
+'use strict'
+const path = require('path')
 
 module.exports = {
   output: {
@@ -14,7 +13,7 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
+          loader: 'babel-loader'
         }
       }
     ]
